@@ -7,7 +7,7 @@ it("can create school through the constructor", () => {
 });
 
 it("can use getRole to return \"intern\"", () => {
-    const testValuye = "intern";
+    const testValue = "intern";
     const e = new intern("Maddy", 1, "maddy@example.com", "UNCC");
     expect(e.getRole()).toBe(testValue);
 });
