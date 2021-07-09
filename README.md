@@ -12,3 +12,5 @@ https://user-images.githubusercontent.com/82417321/125018000-39602e00-e042-11eb-
 <img width="1386" alt="Screen Shot 2021-07-08 at 11 12 34 PM" src="https://user-images.githubusercontent.com/82417321/125018081-5e54a100-e042-11eb-85be-28ec232c7132.png">
 
 # License
+tloyzelle/TeamProfile_Generator is licensed under the
+MIT License
