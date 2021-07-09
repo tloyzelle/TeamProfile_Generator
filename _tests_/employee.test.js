@@ -21,14 +21,14 @@ it("can create id through constructor argument", () => {
 it("can create email through constructor argument", () => {
     const testValue = "maddy@example.com";
     const e = new employee("Maddy", 1, testValue);
-    expect(e.getName()).toBe(testValue);
+    expect(e.email).toBe(testValue);
 });
 
 describe("getName", () => {
-    it("can get name thgrough getName()", () => {
+    it("can get name through getName()", () => {
         const testValue = "Maddy";
-        const e = new employee(textValue);
-        expect(e.getName()).toBe(textValue);
+        const e = new employee(testValue);
+        expect(e.getName()).toBe(testValue);
     });
 });
 
@@ -48,10 +48,10 @@ describe("getEmail", () => {
     });
 });
 
-describe(getRole), () => {
+describe("getRole", () => {
     it("getRole() should return \"employee\"", () => {
         const testValue = "employee";
         const e = new employee("Maddy", 1, "maddy@example.com");
         expect(e.getRole()).toBe(testValue);
     });
-};
+});
